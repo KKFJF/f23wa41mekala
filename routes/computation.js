@@ -17,7 +17,7 @@ router.get('/', function(req, res, next) {
     num2 = Math.log(ran2);
     num3 = Math.log10(ran1);
 
-    res.send(`The Random Numbers are ${ran1} and ${ran2} <br><br> log applied to ${ran1} is ${num1} <br><br> log applied to ${ran2} is ${num2} <br><br> log applied to ${ran1} is ${num3}`);
+    res.send(`The Random Numbers are ${ran1} and ${ran2} <br><br> imul applied to ${ran1} is ${num1} <br><br> log applied to ${ran2} is ${num2} <br><br> log10 applied to ${ran1} is ${num3}`);
 
 });
 
